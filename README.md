@@ -10,7 +10,7 @@ Once this environment variable is set, invoke Logstash:
 logstash -f tfl-cycle-journey-pipeline.conf
 ```
 
-The default output is an Elasticsearch node on `10.0.200.101`, as set up in my Elasticsearch training lab repository.
+The default output is an Elasticsearch node on `10.0.200.101`, as set up in my [Elasticsearch training lab repository](https://github.com/georgebridgeman/elastic-practice-lab).
 
 ### Downloading source data
 The source data is available from [TFL](https://cycling.data.tfl.gov.uk/). The bike usage data is in the `usage-stats` directory.
